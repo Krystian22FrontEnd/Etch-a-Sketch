@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.button {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 10px;
+    padding: 20px 50px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: hsl(180, 83%, 40%);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 960px;
+}
+
+.containerElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    color: teal;
+    border: 1px solid teal;
+}
+
+.containerElement:hover {
+    color: white;
+    background-color: teal;
+}
